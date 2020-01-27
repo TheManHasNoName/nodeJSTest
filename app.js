@@ -8,10 +8,9 @@ app.use(bodyParser.json());
 
 //import routes
 const postsRoute = require('./routes/posts')
+
 //middleware
 app.use('/posts', postsRoute);
-
-//Middleware
 
 
 //Connect DB
